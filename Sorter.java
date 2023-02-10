@@ -16,6 +16,10 @@ public class Sorter{
         }
 
     }
+     public static int[] sort(int[] list){
+        SelactionSort(list);
+        return list;
+    } 
 
     public static void main(String[] args) {
         int[] x= {1,2,7,5};
